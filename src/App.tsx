@@ -5,7 +5,7 @@ import User from './Components/Users'
 import FuncComp from './Components/FuncComp';
 import EventDemo from './Components/EventDemo';
 import FuncCompWithParams from './Components/FunccompWithParams';
-
+import Login from './Components/Login';
 function App() {
   // for using internal css
   // let bg ={
@@ -53,8 +53,14 @@ function App() {
 
 //functional component with parameters (FuncCompWithParams)
 //=========================================================
-<FuncCompWithParams />
-
+//<FuncCompWithParams />
+//========================================================
+ 
+//handling form with react
+//=======================================================
+<div >
+  <Login />
+</div>
 
 );
 }
