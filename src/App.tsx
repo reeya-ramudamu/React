@@ -1,11 +1,15 @@
 import React from 'react';
 import './App.css';
-import Test from './Components/test'
-import User from './Components/Users'
-import FuncComp from './Components/FuncComp';
-import EventDemo from './Components/EventDemo';
-import FuncCompWithParams from './Components/FunccompWithParams';
-import Login from './Components/Login';
+//import AuthUser from './Components/AuthUser';
+//import UserList from './Components/UserList';
+//import { UserService } from './services/UserService';
+// import Test from './Components/test'
+// import User from './Components/User'
+// import FuncComp from './Components/FuncComp';
+// import EventDemo from './Components/EventDemo';
+// import FuncCompWithParams from './Components/FunccompWithParams';
+// import Login from './Components/Login';
+import Users from './Components/Users'
 function App() {
   // for using internal css
   // let bg ={
@@ -56,13 +60,30 @@ function App() {
 //<FuncCompWithParams />
 //========================================================
  
-//handling form with react
-//=======================================================
-<div >
-  <Login />
-</div>
+// //handling form with react
+// //=======================================================
+// <div >
+//   <Login />
+// </div>
+//===============================================================
 
-);
+//conditional rendering
+//================================================================
+//<AuthUser />
+//===============================================================
+
+//looping or iteration
+//===============================================================
+//<UserList />
+
+//use of services
+//================================================================
+
+<div>
+<Users />
+</div>
+)
+
 }
 
 export default App;
