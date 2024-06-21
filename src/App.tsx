@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import {Routes,Route } from 'react-router-dom'
 //import AuthUser from './Components/AuthUser';
 //import UserList from './Components/UserList';
 //import { UserService } from './services/UserService';
@@ -9,7 +10,9 @@ import './App.css';
 // import EventDemo from './Components/EventDemo';
 // import FuncCompWithParams from './Components/FunccompWithParams';
 // import Login from './Components/Login';
-import Users from './Components/Users'
+// import Users from './Components/Users'
+
+
 function App() {
   // for using internal css
   // let bg ={
@@ -76,12 +79,20 @@ function App() {
 //===============================================================
 //<UserList />
 
-//use of services
+//fetching data from api
 //================================================================
+//<Users />
+//=================================================
 
-<div>
-<Users />
-</div>
+
+//Routing
+<Routes>
+  <div>
+    <Route />
+  </div>
+</Routes>
+
+//===============================================================
 )
 
 }
